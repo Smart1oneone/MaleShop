@@ -1,11 +1,10 @@
 {% extends 'base.html' %}
 <!-- blogpost_list.html -->
 {% block content %}
-
-    <h1>Статьи</h1>
-    <ul>
-        {% for post in blogposts %}
-            <li><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></li>
-        {% endfor %}
-    </ul>
+ <div class="container">
+    <h1>{{ blogpost.title }}</h1>
+    <p>{{ blogpost.content }}</p>
+    <p><small>Published on {{ blogpost.created_at }}</small></p>
+    <a href="{% url 'blogpost_list' %}">Back to Blog Posts</a>
+ </div>
 {% endblock %}

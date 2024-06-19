@@ -1,33 +1,287 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="63998481-0185-46b9-9d88-f3457aba26cc" name="Changes" comment="" />
+    <list default="true" id="63998481-0185-46b9-9d88-f3457aba26cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/MaleShop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleShop/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleShop/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleShop/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleShop/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaleShop/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/management/commands/insert_mock_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/migrations/0002_maleclothes_color.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/migrations/0003_alter_maleclothes_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/migrations/0004_alter_maleclothes_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/templates/goods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/main/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/Source/Magnific-Popup-master.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/Source/OwlCarousel2-2.3.4.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/Source/SlickNav-master.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/Source/bootstrap-4.2.1-dist.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/Source/elegant_font.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/Source/font-awesome-4.7.0.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/Source/jquery-nice-select-1.1.0.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/css/elegant-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/css/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/css/slicknav.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/fonts/ElegantIcons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/fonts/ElegantIcons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/fonts/ElegantIcons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/fonts/ElegantIcons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/MP002XM00J3U_23095881_1_v1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/MP002XM0T0O9_20272631_1_v3_2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/MP002XM0VOPD_23432672_1_v1_2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/about/about-us.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/about/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/about/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/about/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/about/team-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/about/testimonial-author.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/about/testimonial-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/banner/banner-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/banner/banner-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/banner/banner-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/blog/blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/blog/blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/blog/blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/blog/blog-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/blog/blog-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/blog/blog-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/blog/blog-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/blog/blog-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/blog/blog-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/blog/details/blog-author.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/blog/details/blog-details.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/breadcrumb-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/clients/client-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/clients/client-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/clients/client-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/clients/client-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/clients/client-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/clients/client-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/clients/client-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/clients/client-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/footer-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/hero/hero-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/hero/hero-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/icon/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/icon/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/icon/compare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/icon/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/icon/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/instagram/instagram-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/instagram/instagram-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/instagram/instagram-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/instagram/instagram-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/instagram/instagram-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/instagram/instagram-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/jacket1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/jacket2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/jacket3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/male_clothes/MP002XM00J3U_23095881_1_v1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/male_clothes/MP002XM0T0O9_20272631_1_v3_2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/male_clothes/MP002XM0VOPD_23432672_1_v1_2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/male_clothes/jacket1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/male_clothes/jacket2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/male_clothes/jacket3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/male_clothes/pants1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/male_clothes/pants2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/male_clothes/pants3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/male_clothes/suit.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/male_clothes/tie1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/male_clothes/tie2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/pants1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/pants2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/pants3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/payment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/product-sale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/product/product-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/product/product-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/product/product-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/product/product-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/product/product-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/product/product-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/product/product-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/product/product-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/product/product-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/product/product-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/product/product-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/product/product-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/product/product-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/product/product-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/shop-details/details-payment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/shop-details/product-big-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/shop-details/product-big-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/shop-details/product-big-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/shop-details/product-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/shop-details/thumb-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/shop-details/thumb-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/shop-details/thumb-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/shop-details/thumb-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/shopping-cart/cart-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/shopping-cart/cart-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/shopping-cart/cart-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/shopping-cart/cart-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/suit.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/tie1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/img/tie2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/js/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/js/jquery.nice-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/js/jquery.nicescroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/js/jquery.slicknav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/js/mixitup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_blog-details.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_blog-sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_checkout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_hero.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_home-page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_product.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_shop-details.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_shop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_shopping-cart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/_variable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/deps/sass/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2hrcsRFRWOOkpIQbjDpTjDesn8e" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.MaleShop.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/deps/img" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/main/templates/main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MaleShop" type="Python.DjangoServer" factoryName="Django server">
+      <module name="MaleShop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="MaleShop.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -44,8 +298,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718355842664</updated>
-      <workItem from="1718355844001" duration="5000" />
+      <workItem from="1718355844001" duration="1471000" />
+      <workItem from="1718437084739" duration="762000" />
+      <workItem from="1718457377340" duration="7292000" />
+      <workItem from="1718469779055" duration="2225000" />
+      <workItem from="1718472600406" duration="655000" />
+      <workItem from="1718552931158" duration="4512000" />
+      <workItem from="1718608776657" duration="9030000" />
+      <workItem from="1718695381186" duration="5452000" />
+      <workItem from="1718782441309" duration="813000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

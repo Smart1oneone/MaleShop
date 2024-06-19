@@ -1,10 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'base.html' %}
+<!-- blogpost_list.html -->
+{% block content %}
+ <div class="container">
+    <h2>Статьи</h2>
+    <ul>
+        {% for post in blogposts %}
+            <li><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></li>
+            <p>{{ post.content }}</p>
+        {% endfor %}
+    </ul>
+    </div>
+{% endblock %}
